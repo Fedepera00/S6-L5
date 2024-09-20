@@ -1,0 +1,66 @@
+body {
+  background-color: #000000;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+/* PERSONALIZZO BOX GENRES */
+.genre-select {
+  width: 100px;
+  background-color: #333;
+  padding: 5px 10px;
+}
+
+.genre-select:hover {
+  background-color: #444;
+}
+/* RIMUOVO MARGINI TRA IMMAGINI */
+.carousel .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.carousel .col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* CON QUESTO LE IMAGINI OCCUPANO TUTTO LO SPAZIO DISPOIBILE CHE HO */
+.carousel .col img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+footer p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+footer p a,
+footer button,
+footer p {
+  font-family: "Product Sans", sans-serif;
+  color: #b3b3b3;
+}
+footer button {
+  font-family: "Product Sans", sans-serif;
+  font-weight: 700;
+  /* Hover sui link */
+  footer p a:hover {
+    color: #ffffff; /* COLORE BIANCO QUANDO PASSO SENZA CLICCARE  */
+  }
+
+  /* AGGIUNGO UN POCHINO DI PADDING AL CENTRO DEL CONTAINER */
+  footer .container {
+    max-width: 1200px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+footer ion-icon {
+  margin-bottom: 10px;
+}
+
+footer h6 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}

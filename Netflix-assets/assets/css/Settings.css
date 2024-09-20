@@ -1,0 +1,31 @@
+body {
+  background-color: #f3f3f3;
+}
+.settings-header {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.settings-section {
+  margin-top: 40px;
+}
+.settings-section h6 {
+  font-weight: bold;
+  color: #999;
+}
+.link-section a {
+  color: #0073e6;
+  text-decoration: none;
+}
+.link-section a:hover {
+  text-decoration: underline;
+}
+.btn-cancel {
+  background-color: #e6e6e6;
+  border: 1px solid #ccc;
+}
+
+hr.border-secondary {
+  border-width: 3px;
+  border-color: #555;
+}
